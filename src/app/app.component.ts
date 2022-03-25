@@ -1,6 +1,7 @@
 // Import the Component class from Angular core
 // Components are the most basic UI building block of an Angular app. An Angular app contains a tree of Angular components.
 // https://angular.io/api/core/Component#description
+// https://angular.io/guide/architecture#components
 import {Component} from "@angular/core";
 
 // This is where your components definition begins. I think about this like we are instantiating
