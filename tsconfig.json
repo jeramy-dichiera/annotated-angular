@@ -1,0 +1,20 @@
+// The TS config file will control the base Typescript and Angular compiler options
+// that all projects in this workspace will inherit
+// https://angular.io/guide/typescript-configuration
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"baseUrl": "./",
+		"outDir": "./dist/out-tsc",
+		"module": "es2020",
+		"importHelpers": true,
+		"target": "es2017",
+		"moduleResolution": "node",
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"lib": [
+			"es2018",
+			"dom"
+		]
+	}
+}
